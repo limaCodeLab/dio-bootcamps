@@ -29,5 +29,6 @@ public class ContaTerminal {
                         "sua agência é %s, conta %d e seu saldo %.2f%n já está disponível para saque."
                 , nomeCliente.toUpperCase(), conta, numero, saldo);
 
+        input.close();
     }
 }
