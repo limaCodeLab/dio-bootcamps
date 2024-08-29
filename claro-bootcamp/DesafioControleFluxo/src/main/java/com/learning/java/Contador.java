@@ -17,6 +17,8 @@ public class Contador {
             System.out.println(e.getMessage());
         }
 
+        input.close();
+
     }
 
     public static void contar(int parametroUm, int parametroDois) {
