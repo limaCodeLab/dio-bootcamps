@@ -1,0 +1,13 @@
+package com.learning.java;
+
+public interface NavegadorInternet {
+
+    void exibirPagina(String url);
+
+    void adicionarNovaAba();
+
+    void atualizarPagina();
+
+    void fecharNavegador();
+
+}
